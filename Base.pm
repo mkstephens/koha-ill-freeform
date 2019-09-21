@@ -947,18 +947,18 @@ sub _openurl_to_ill {
         aulast  => 'author',
         author  => 'author',
         date    => 'year',
-	issue   => 'issue',
+	    issue   => 'issue',
         volume  => 'volume',
         isbn    => 'isbn',
         issn    => 'issn',
-	rft_id  => 'doi',
+	    rft_id  => 'doi',
         year    => 'year',
         title   => 'title',
         author  => 'author',
         aulast  => 'article_author',
         pages   => 'pages',
-	ctitle  => 'chapter',
-	clast   => 'chapter_author'
+	    ctitle  => 'chapter',
+	    clast   => 'chapter_author'
     };
 
     my $transform_value = {
@@ -967,7 +967,7 @@ sub _openurl_to_ill {
             selectedft => 'article',
             print      => 'book',
             ebook      => 'book',
-	    journal    => 'journal'
+	        journal    => 'journal'
         }
     };
 
